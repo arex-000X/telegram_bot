@@ -4,33 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="069a763f-cef4-4908-920a-575785b0ecfe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/adapters/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/adapters/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/adapters/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/adapters/ProblemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/adapters/TelegramBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/adapters/UpdateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/domain/UseCaseChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/domain/UseCaseMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/domain/UseCaseProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/domain/UseCaseUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/domain/UseCaseUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/entities/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/entities/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/entities/Problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/entities/Update.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/repository/TelegramRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/resources/LinkName.java" afterDir="false" />
+    <list default="true" id="069a763f-cef4-4908-920a-575785b0ecfe" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/adapters/ProblemStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/telegram/adapters/TelegramApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/telegram/adapters/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/telegram/adapters/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/telegram/adapters/TelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/telegram/adapters/TelegramBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/telegram/resources/LinkName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/telegram/resources/LinkName.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +22,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "arex-000X"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/arex-000X/telegram_bot.git",
+    "accountId": "91e843cd-7ebc-474d-b882-990040db954f"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -58,18 +51,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Redmi/IdeaProjects/telegram_bot",
-    "onboarding.tips.debug.path": "C:/Users/Redmi/IdeaProjects/telegram_bot/src/main/java/org/telegram/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Redmi/IdeaProjects/telegram_bot&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Redmi/IdeaProjects/telegram_bot/src/main/java/org/telegram/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.telegram.Main" />
@@ -99,6 +92,30 @@
       <option name="presentableId" value="Default" />
       <updated>1728148243548</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1730224721324</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730224721324</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
